@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(255, 166, 0, 0.678);
+        }
+        
+        #namee,#pass{
+            display:block;
+    margin: 0px 200px 0px 600px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orange;
+    background-color: beige;
+    border: 2px orange double;
+    border-radius: 20rem;
+    padding: 10px 60px 10px 30px;
+            
+        }
+        
+        form{
+       text-align: center;
+        }
+        .sub ,#skip{
+            display:block;
+    margin: 0px 200px 20px 670px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orange;
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+        }
+
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 >LOGIN</h1>
+    <form onsubmit="return formvalid()">
+        <input type="text" id="namee" placeholder="enter name"> <br>
+        <input type="password" id="pass" placeholder="enter password"> <br>
+        <input type="submit" class="sub">
+     
+
+
+    </form>
+    <input type="button" value="skip Login" id="skip">
+    
+    <script src="register.js">
+
+
+
+    
+    </script>
+</body>
+</html>
